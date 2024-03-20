@@ -1,0 +1,11 @@
+.vscode
+
+Modelo/__pycache__
+
+Data/*
+!Data/data_link.txt
+
+Modelo/saved_models/*
+!Modelo/saved_models/data_link.txt
+
+Modelo/train_graphs/*.pkl
