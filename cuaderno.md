@@ -195,8 +195,13 @@ aproximadamente igual.
 
 Para el dataset de sobresampleo la lstm da considerablemente mejor que un modelo simple de dos layers, mientras que para GPT y BASIC dan lo mismo.
 
-# Testeando el modelo (20/03/24)
 
-Elegimos finalmente como modelo una la bi-lstm entrenada con el dataset de sobresampleo por 600 epochs. Obtuvimos finalmente:
+# Testeando con bi-lstm oversample (20/03/24)
 
-RESULTADOS
+El dataset de testeo tiene casi 500 datos (28% clase positiva), obtuvimos los siguientes resultados (redondeado a dos decimas):
+
+- precision: 0.82
+- recall 0.84
+- accuracy: 0.92
+- accuracy relacionados: 0.75
+- accuracy no-relacionados: 0.99
