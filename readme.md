@@ -8,7 +8,7 @@ Construimos un modelo que recibe el titulo de una noticia de un medio de comunic
 - "A pesar de un intento de reconciliación, el paro continua": Este titulo SI confirma un paro
 - "Randazzo considera el paro de trenes "totalmente desmedido"": Este titulo es ambiguo, Randazzo habla de un paro transcurriendo? O uno que ya paso? En el primer caso se clasifica como "SI", pero en el otro como "NO".
 
-Esto que introduce un error intrínseco para noticias relacionadas a paros importante.
+Esto que introduce un error intrínseco para noticias relacionadas a paros. Dos noticias casi indistinguibles pueden -en su articulo- afirmar la existencia o no del paro.
 
 El modelo consiste en una bi-lstm con los embeddings de Bert, entrenado con aprox. 1400 noticias de distintos medios de comunicación (Clarin, Infobae y La Nacion), y otras 800 sintetizadas por chatgpt.
 
